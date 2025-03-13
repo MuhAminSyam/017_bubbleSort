@@ -15,3 +15,15 @@ void input() {//prosedur input
             cout << "\nArray dapat mempunyai maksimal 20 elemen\n" <<endl;           }
     }
 } 
+
+
+cout << endl;
+cout << "=============" << endl;
+cout << "masukkan elemen array" << endl;
+cout << "=============" << endl;
+
+
+for (int i = 0; <n; 1++){
+    cout << "Data ke-" << (i+1) << ";";
+    cin >> arr[i];
+}
