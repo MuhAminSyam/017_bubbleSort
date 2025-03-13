@@ -66,3 +66,12 @@ void display(){
 
 }
 
+int main(){
+    input();
+
+    bubblesortArray();
+    display();
+
+    system("pause");
+    return 0;
+}
