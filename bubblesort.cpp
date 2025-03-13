@@ -41,3 +41,28 @@ void bubblesortArray(){ //procedur untuk mengurutkan array dengan metode bubble 
         arr[j+1] = temp;
            }
       }
+      pass = pass + 1; // step4
+    } while (pass <= n - 1); //step5
+}
+
+void display(){
+    cout << endl;
+    cout << "==================" << endl;
+    cout << "Element array yang telah tersusun" << endl;
+    cout << "==================" << endl;
+    cout << endl;
+    for (int j = 0; j < n; j++){
+         cout << arr[j];
+         if (j < n - 1){
+            cout << "-->";
+         }
+    }
+    cout << endl;
+    cout << endl;
+
+    cout << "jumlah pass = " << n - << endl;
+    cout << endl;
+    cout << endl;
+
+}
+
